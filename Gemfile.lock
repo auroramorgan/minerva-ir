@@ -1,0 +1,21 @@
+PATH
+  remote: ../ruby-llvm
+  specs:
+    ruby-llvm (3.6.0)
+      ffi (~> 1.9.3)
+      rake (~> 10.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.10)
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruby-llvm!
+
+BUNDLED WITH
+   1.10.6
